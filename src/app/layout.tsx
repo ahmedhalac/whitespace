@@ -26,9 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${dmSans.variable}`}>
-        {children}
-      </body>
+      <body className={`${inter.variable} ${dmSans.variable}`}>{children}</body>
     </html>
   );
 }
