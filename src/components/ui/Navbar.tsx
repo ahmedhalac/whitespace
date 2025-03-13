@@ -13,13 +13,7 @@ export default function Navbar() {
   const navLinks = ["Products", "Solutions", "Resources", "Pricing"];
   return (
     <nav className="bg-primary h-[92px] flex items-center justify-between px-8 xl:justify-around">
-      <Image
-        src="/logo.svg"
-        alt="logo"
-        quality={100}
-        height={35}
-        width={190}
-      ></Image>
+      <Image src="/logo.svg" alt="logo" quality={100} height={35} width={190} />
 
       {/* Desktop menu */}
       <ul className="flex items-center text-white gap-10 font-dm-sans text-base">
